@@ -15,8 +15,9 @@
 					"options": {},
 					"configurations": {
 						"production": {
-							"target": "shell:esbuild:production"
-						},
+							"target": "shell:esbuild:production",
+              "outputPath": "dist/shell"
+            },
 						"development": {
 							"target": "shell:esbuild:development",
 							"dev": true
